@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MovementTests2.unity
+- path: Assets/Scenes/levelDesign01.unity
   isLoaded: 1
   isActive: 1
