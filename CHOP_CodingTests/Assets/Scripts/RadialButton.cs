@@ -1,21 +1,29 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class RadialButton : MonoBehaviour {
+public class RadialButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
 
     public Image circle;
     public Image icon;
-    public string title;    
+    public string title;
+    public RadialMenu myMenu;
+    Color defaultColor;
+    Color selectedColor = Color.black;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        defaultColor = circle.color;
+        circle.color = selectedColor;      
+        myMenu.selected = this;
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        circle.color = defaultColor;
+        myMenu.selected = null;
+    }
 }

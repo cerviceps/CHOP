@@ -5,7 +5,7 @@ using UnityEngine;
 public class RadialMenu : MonoBehaviour {
 
     public RadialButton buttonPrefab;
-    public RadialMenu selected;
+    public RadialButton selected;
 
 	// Use this for initialization
 	public void SpawnButtons (Interactable obj) {
@@ -20,6 +20,7 @@ public class RadialMenu : MonoBehaviour {
             newButton.circle.color = obj.options[i].color;
             newButton.icon.sprite = obj.options[i].sprite;
             newButton.title = obj.options[i].title;
+            newButton.myMenu = this;
         }
     }
 	
@@ -27,6 +28,11 @@ public class RadialMenu : MonoBehaviour {
     {
         if (Input.GetMouseButtonUp(0))
         {
+            if (selected)
+            {
+                //Do shit here
+                Debug.Log(selected.title + " was selected!");
+            }
             Destroy(gameObject);
         }
     }
