@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: f461545c2c1001f41b477b3c1a89458a
+timeCreated: 1490771864
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: dandelions_01:Dandelion_Fluffball01
+    100004: dandelions_01:Dandelion_FluffStem01
+    100006: dandelions_01:Dandelion_Inside01
+    100008: dandelions_01:Dandelion_Inside02
+    100010: dandelions_01:Dandelion_OuterRing01
+    100012: dandelions_01:Dandelion_OuterRing02
+    100014: dandelions_01:Dandelion_Stem01
+    100016: dandelions_01:Dandelion_Stem02
+    100018: dandelions_01:DandelionLeaf18
+    100020: dandelions_01:DandelionLeaf21
+    100022: dandelions_01:DandelionLeaf22
+    100024: dandelions_01:DandelionLeaf23
+    100026: dandelions_01:DandelionLeaf24
+    100028: dandelions_01:DandelionLeaf25
+    400000: //RootNode
+    400002: dandelions_01:Dandelion_Fluffball01
+    400004: dandelions_01:Dandelion_FluffStem01
+    400006: dandelions_01:Dandelion_Inside01
+    400008: dandelions_01:Dandelion_Inside02
+    400010: dandelions_01:Dandelion_OuterRing01
+    400012: dandelions_01:Dandelion_OuterRing02
+    400014: dandelions_01:Dandelion_Stem01
+    400016: dandelions_01:Dandelion_Stem02
+    400018: dandelions_01:DandelionLeaf18
+    400020: dandelions_01:DandelionLeaf21
+    400022: dandelions_01:DandelionLeaf22
+    400024: dandelions_01:DandelionLeaf23
+    400026: dandelions_01:DandelionLeaf24
+    400028: dandelions_01:DandelionLeaf25
+    2300000: dandelions_01:Dandelion_Fluffball01
+    2300002: dandelions_01:Dandelion_FluffStem01
+    2300004: dandelions_01:Dandelion_Inside01
+    2300006: dandelions_01:Dandelion_Inside02
+    2300008: dandelions_01:Dandelion_OuterRing01
+    2300010: dandelions_01:Dandelion_OuterRing02
+    2300012: dandelions_01:Dandelion_Stem01
+    2300014: dandelions_01:Dandelion_Stem02
+    2300016: dandelions_01:DandelionLeaf18
+    2300018: dandelions_01:DandelionLeaf21
+    2300020: dandelions_01:DandelionLeaf22
+    2300022: dandelions_01:DandelionLeaf23
+    2300024: dandelions_01:DandelionLeaf24
+    2300026: dandelions_01:DandelionLeaf25
+    3300000: dandelions_01:Dandelion_Fluffball01
+    3300002: dandelions_01:Dandelion_FluffStem01
+    3300004: dandelions_01:Dandelion_Inside01
+    3300006: dandelions_01:Dandelion_Inside02
+    3300008: dandelions_01:Dandelion_OuterRing01
+    3300010: dandelions_01:Dandelion_OuterRing02
+    3300012: dandelions_01:Dandelion_Stem01
+    3300014: dandelions_01:Dandelion_Stem02
+    3300016: dandelions_01:DandelionLeaf18
+    3300018: dandelions_01:DandelionLeaf21
+    3300020: dandelions_01:DandelionLeaf22
+    3300022: dandelions_01:DandelionLeaf23
+    3300024: dandelions_01:DandelionLeaf24
+    3300026: dandelions_01:DandelionLeaf25
+    4300000: dandelions_01:Dandelion_FluffStem01
+    4300002: dandelions_01:DandelionLeaf18
+    4300004: dandelions_01:DandelionLeaf21
+    4300006: dandelions_01:DandelionLeaf22
+    4300008: dandelions_01:DandelionLeaf23
+    4300010: dandelions_01:DandelionLeaf24
+    4300012: dandelions_01:DandelionLeaf25
+    4300014: dandelions_01:Dandelion_Stem01
+    4300016: dandelions_01:Dandelion_Inside01
+    4300018: dandelions_01:Dandelion_OuterRing01
+    4300020: dandelions_01:Dandelion_Stem02
+    4300022: dandelions_01:Dandelion_Inside02
+    4300024: dandelions_01:Dandelion_OuterRing02
+    4300026: dandelions_01:Dandelion_Fluffball01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
