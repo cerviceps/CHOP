@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Ground
-  m_Shader: {fileID: 4800000, guid: 4609c28b77ae6c04689a8ba2b2fccba7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6782973e3ca8b2543beddb0a3dc3175e, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -107,11 +107,38 @@ Material:
         name: _OcclusionStrength
       second: 1
     - first:
+        name: _Offset1
+      second: 0
+    - first:
+        name: _Offset2
+      second: 0
+    - first:
+        name: _Outline
+      second: 1
+    - first:
         name: _Parallax
       second: 0.02
     - first:
+        name: _RampSmooth
+      second: 0.344
+    - first:
+        name: _RampThreshold
+      second: 0.341
+    - first:
+        name: _RimMax
+      second: 1
+    - first:
+        name: _RimMin
+      second: 0.5
+    - first:
+        name: _Shininess
+      second: 0.1
+    - first:
         name: _SmoothnessTextureChannel
       second: 0
+    - first:
+        name: _SpecSmooth
+      second: 0.05
     - first:
         name: _SpecularHighlights
       second: 1
@@ -119,15 +146,21 @@ Material:
         name: _SrcBlend
       second: 1
     - first:
+        name: _TexLod
+      second: 5
+    - first:
         name: _UVSec
       second: 0
+    - first:
+        name: _ZSmooth
+      second: -0.5
     - first:
         name: _ZWrite
       second: 1
     m_Colors:
     - first:
         name: _Color
-      second: {r: 0.66176474, g: 0.6549189, b: 0.41360295, a: 1}
+      second: {r: 0.60294116, g: 0.6023297, b: 0.5807742, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
@@ -135,5 +168,17 @@ Material:
         name: _HColor
       second: {r: 0.6, g: 0.6, b: 0.6, a: 1}
     - first:
+        name: _OutlineColor
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
+    - first:
+        name: _RimDir
+      second: {r: 0, g: 0, b: 1, a: 0}
+    - first:
         name: _SColor
-      second: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+      second: {r: 0.19669119, g: 0.25, b: 0.23235294, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
