@@ -11,3 +11,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SoupScene01.unity
   - enabled: 1
     path: Assets/Scenes/PancakeScene01.unity
+  - enabled: 1
+    path: Assets/Scenes/TroutScene01.unity
+  - enabled: 1
+    path: Assets/Scenes/EggScene01.unity
+  - enabled: 1
+    path: Assets/Scenes/PizzaScene01.unity
