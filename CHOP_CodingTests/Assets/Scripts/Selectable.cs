@@ -9,7 +9,7 @@ public class Selectable : MonoBehaviour {
     void Awake()
     {
         render = GetComponent<Renderer>();
-        render.material.shader = Shader.Find("Standard");
+        render.material.shader = Shader.Find("Toony Colors Pro 2/Desktop");
     }
 
     void OnMouseOver()
@@ -20,6 +20,6 @@ public class Selectable : MonoBehaviour {
 
     void OnMouseExit()
     {
-        render.material.shader = Shader.Find("Standard");
+        render.material.shader = Shader.Find("Toony Colors Pro 2/Desktop");
     }
 }

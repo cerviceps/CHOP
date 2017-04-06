@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459612ab98e7d41989b8b399de35c407, type: 3}
+  m_Name: typewriter
+  m_EditorClassIdentifier: 
+  text: 3c617564696f436c6970733d747970657772697465723e3c636c6970733d747970657772697465723e3c64726177416e696d3d4170706561723e3c70697463684d6f64653d72616e646f6d3e3c73746f7050726576696f7573536f756e643d747275653e3c7265616444656c61793d302e31353e3c6d696e50697463683d302e383e3c6d617850697463683d312e323e
