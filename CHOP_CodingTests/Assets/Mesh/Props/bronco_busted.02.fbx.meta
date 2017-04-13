@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: a55a45193bfc1f643855af6e960b8b04
+timeCreated: 1491688576
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: JCallaci_bronco_01:back_bumper
+    100004: JCallaci_bronco_01:back_left_tire
+    100006: JCallaci_bronco_01:back_right_tire
+    100008: JCallaci_bronco_01:back_seat
+    100010: JCallaci_bronco_01:body
+    100012: JCallaci_bronco_01:driver_seat
+    100014: JCallaci_bronco_01:drivers_backrest
+    100016: JCallaci_bronco_01:drivers_seat
+    100018: JCallaci_bronco_01:exterior
+    100020: JCallaci_bronco_01:front_bumper
+    100022: JCallaci_bronco_01:front_left_tire
+    100024: JCallaci_bronco_01:front_right_tire
+    100026: JCallaci_bronco_01:interior
+    100028: JCallaci_bronco_01:interior_walls
+    100030: JCallaci_bronco_01:left_mirror
+    100032: JCallaci_bronco_01:left_mirror 1
+    100034: JCallaci_bronco_01:left_mirror_pipe
+    100036: JCallaci_bronco_01:left_mirror_stand
+    100038: JCallaci_bronco_01:passenger_backrest
+    100040: JCallaci_bronco_01:passenger_seat
+    100042: JCallaci_bronco_01:passenger_seat 1
+    100044: JCallaci_bronco_01:right_mirror
+    100046: JCallaci_bronco_01:right_mirror 1
+    100048: JCallaci_bronco_01:right_mirror_pipe
+    100050: JCallaci_bronco_01:right_mirror_stand
+    100052: JCallaci_bronco_01:steering_wheel
+    100054: JCallaci_bronco_01:steering_wheel_middle
+    100056: JCallaci_bronco_01:sterring_wheel
+    100058: JCallaci_bronco_01:tires
+    400000: //RootNode
+    400002: JCallaci_bronco_01:back_bumper
+    400004: JCallaci_bronco_01:back_left_tire
+    400006: JCallaci_bronco_01:back_right_tire
+    400008: JCallaci_bronco_01:back_seat
+    400010: JCallaci_bronco_01:body
+    400012: JCallaci_bronco_01:driver_seat
+    400014: JCallaci_bronco_01:drivers_backrest
+    400016: JCallaci_bronco_01:drivers_seat
+    400018: JCallaci_bronco_01:exterior
+    400020: JCallaci_bronco_01:front_bumper
+    400022: JCallaci_bronco_01:front_left_tire
+    400024: JCallaci_bronco_01:front_right_tire
+    400026: JCallaci_bronco_01:interior
+    400028: JCallaci_bronco_01:interior_walls
+    400030: JCallaci_bronco_01:left_mirror
+    400032: JCallaci_bronco_01:left_mirror 1
+    400034: JCallaci_bronco_01:left_mirror_pipe
+    400036: JCallaci_bronco_01:left_mirror_stand
+    400038: JCallaci_bronco_01:passenger_backrest
+    400040: JCallaci_bronco_01:passenger_seat
+    400042: JCallaci_bronco_01:passenger_seat 1
+    400044: JCallaci_bronco_01:right_mirror
+    400046: JCallaci_bronco_01:right_mirror 1
+    400048: JCallaci_bronco_01:right_mirror_pipe
+    400050: JCallaci_bronco_01:right_mirror_stand
+    400052: JCallaci_bronco_01:steering_wheel
+    400054: JCallaci_bronco_01:steering_wheel_middle
+    400056: JCallaci_bronco_01:sterring_wheel
+    400058: JCallaci_bronco_01:tires
+    2300000: JCallaci_bronco_01:back_bumper
+    2300002: JCallaci_bronco_01:back_left_tire
+    2300004: JCallaci_bronco_01:back_right_tire
+    2300006: JCallaci_bronco_01:body
+    2300008: JCallaci_bronco_01:drivers_backrest
+    2300010: JCallaci_bronco_01:drivers_seat
+    2300012: JCallaci_bronco_01:front_bumper
+    2300014: JCallaci_bronco_01:front_left_tire
+    2300016: JCallaci_bronco_01:front_right_tire
+    2300018: JCallaci_bronco_01:interior_walls
+    2300020: JCallaci_bronco_01:left_mirror 1
+    2300022: JCallaci_bronco_01:left_mirror_pipe
+    2300024: JCallaci_bronco_01:left_mirror_stand
+    2300026: JCallaci_bronco_01:passenger_backrest
+    2300028: JCallaci_bronco_01:passenger_seat 1
+    2300030: JCallaci_bronco_01:right_mirror 1
+    2300032: JCallaci_bronco_01:right_mirror_pipe
+    2300034: JCallaci_bronco_01:right_mirror_stand
+    2300036: JCallaci_bronco_01:steering_wheel_middle
+    2300038: JCallaci_bronco_01:sterring_wheel
+    3300000: JCallaci_bronco_01:back_bumper
+    3300002: JCallaci_bronco_01:back_left_tire
+    3300004: JCallaci_bronco_01:back_right_tire
+    3300006: JCallaci_bronco_01:body
+    3300008: JCallaci_bronco_01:drivers_backrest
+    3300010: JCallaci_bronco_01:drivers_seat
+    3300012: JCallaci_bronco_01:front_bumper
+    3300014: JCallaci_bronco_01:front_left_tire
+    3300016: JCallaci_bronco_01:front_right_tire
+    3300018: JCallaci_bronco_01:interior_walls
+    3300020: JCallaci_bronco_01:left_mirror 1
+    3300022: JCallaci_bronco_01:left_mirror_pipe
+    3300024: JCallaci_bronco_01:left_mirror_stand
+    3300026: JCallaci_bronco_01:passenger_backrest
+    3300028: JCallaci_bronco_01:passenger_seat 1
+    3300030: JCallaci_bronco_01:right_mirror 1
+    3300032: JCallaci_bronco_01:right_mirror_pipe
+    3300034: JCallaci_bronco_01:right_mirror_stand
+    3300036: JCallaci_bronco_01:steering_wheel_middle
+    3300038: JCallaci_bronco_01:sterring_wheel
+    4300000: JCallaci_bronco_01:left_mirror_pipe
+    4300002: JCallaci_bronco_01:left_mirror_stand
+    4300004: JCallaci_bronco_01:left_mirror
+    4300006: JCallaci_bronco_01:right_mirror
+    4300008: JCallaci_bronco_01:right_mirror_pipe
+    4300010: JCallaci_bronco_01:right_mirror_stand
+    4300012: JCallaci_bronco_01:body
+    4300014: JCallaci_bronco_01:back_bumper
+    4300016: JCallaci_bronco_01:front_bumper
+    4300018: JCallaci_bronco_01:sterring_wheel
+    4300020: JCallaci_bronco_01:steering_wheel_middle
+    4300022: JCallaci_bronco_01:drivers_backrest
+    4300024: JCallaci_bronco_01:drivers_seat
+    4300026: JCallaci_bronco_01:passenger_backrest
+    4300028: JCallaci_bronco_01:passenger_seat
+    4300030: JCallaci_bronco_01:interior_walls
+    4300032: JCallaci_bronco_01:front_right_tire
+    4300034: JCallaci_bronco_01:back_right_tire
+    4300036: JCallaci_bronco_01:back_left_tire
+    4300038: JCallaci_bronco_01:front_left_tire
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 35
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
