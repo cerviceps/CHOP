@@ -282,9 +282,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredients:
-  - chicken
-  - water
-  - lettuce
+  - 636869636b656e
+  - 7761746572
+  - 6c657474756365
 --- !u!4 &1375470285
 Transform:
   m_ObjectHideFlags: 0
@@ -322,13 +322,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2140537360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0d3c1e53645745da987fa62c78d6516, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f3cd6105d584af4b4603fe242b1342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   coords:
-  - {x: 1, y: 1, z: 1}
+  - {x: 0, y: 0, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: 3, y: 0, z: 0}
   prefabs:
-  - {fileID: 1018285771951034, guid: 2109b3dad7c55477abb519f5760fc0df, type: 2}
+  - {fileID: 1018285771951034, guid: ed3982889b94b4d0a81f1df56f3885a2, type: 2}
+  - {fileID: 1020844857609646, guid: d4b6a0fc6b2b34b18862821f1f342e78, type: 2}
+  - {fileID: 1578248415244286, guid: e340fe8fc936c48a18d9c28ae34fad60, type: 2}
+  - {fileID: 1232778843619446, guid: e1ecd2ab62d6746669cfa1bc996a5c99, type: 2}
 --- !u!4 &2140537362
 Transform:
   m_ObjectHideFlags: 0
