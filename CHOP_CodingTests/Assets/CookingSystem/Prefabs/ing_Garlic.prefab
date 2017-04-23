@@ -9,77 +9,76 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1546889031008264}
+  m_RootGameObject: {fileID: 1231831862889840}
   m_IsPrefabParent: 1
---- !u!1 &1546889031008264
+--- !u!1 &1231831862889840
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4342472038278572}
-  - component: {fileID: 114999589282028904}
-  - component: {fileID: 114413066024505758}
-  - component: {fileID: 65827846575964348}
+  - component: {fileID: 4215964154255294}
+  - component: {fileID: 114948148365738524}
+  - component: {fileID: 114243374463177044}
+  - component: {fileID: 65664241418557740}
   m_Layer: 0
-  m_Name: ing_Mushroom
+  m_Name: ing_Garlic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1912406314123400
+--- !u!1 &1319806524045412
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4628575620018736}
-  - component: {fileID: 33355729786346402}
-  - component: {fileID: 23660941533211146}
-  - component: {fileID: 95937827481107298}
+  - component: {fileID: 4471069009498330}
+  - component: {fileID: 33601180821201288}
+  - component: {fileID: 23585216130198654}
   m_Layer: 0
-  m_Name: OysterMushroom03
+  m_Name: tallGarlicBulb01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4342472038278572
+--- !u!4 &4215964154255294
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1546889031008264}
+  m_GameObject: {fileID: 1231831862889840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.902, y: 2.0001798, z: 1.5339675}
+  m_LocalPosition: {x: 0.6384155, y: 2.0001798, z: 1.5339675}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4628575620018736}
+  - {fileID: 4471069009498330}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4628575620018736
+--- !u!4 &4471069009498330
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1912406314123400}
+  m_GameObject: {fileID: 1319806524045412}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4108276, y: 1.4108276, z: 1.4108276}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4342472038278572}
+  m_Father: {fileID: 4215964154255294}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23660941533211146
+--- !u!23 &23585216130198654
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1912406314123400}
+  m_GameObject: {fileID: 1319806524045412}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -87,7 +86,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d90609175bbbbbd42891bb7dcb8d2ab5, type: 2}
+  - {fileID: 2100000, guid: f7b149964b9078b48898447bc5235760, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,62 +104,45 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &33355729786346402
+--- !u!33 &33601180821201288
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1912406314123400}
-  m_Mesh: {fileID: 4300000, guid: cc3a919155d572049a3e753983b04557, type: 3}
---- !u!65 &65827846575964348
+  m_GameObject: {fileID: 1319806524045412}
+  m_Mesh: {fileID: 4300000, guid: d1f56fea0e826504a89465f680342733, type: 3}
+--- !u!65 &65664241418557740
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1546889031008264}
+  m_GameObject: {fileID: 1231831862889840}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.3, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!95 &95937827481107298
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1912406314123400}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: cc3a919155d572049a3e753983b04557, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114413066024505758
+--- !u!114 &114243374463177044
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1546889031008264}
+  m_GameObject: {fileID: 1231831862889840}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e862b6d7d8df441dbc947bbe3b74daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114999589282028904
+--- !u!114 &114948148365738524
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1546889031008264}
+  m_GameObject: {fileID: 1231831862889840}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5c32ebf5517c47ae9e2c881a042a8ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: mushroom
+  name: garlic

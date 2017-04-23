@@ -3,20 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Draggable : MonoBehaviour {
+	
+	Vector3 dist;
+	Vector3 startPos;
+	float posX;
+	float posZ;
+	float posY;
 
-	private Vector3 screenPoint;
-	private Vector3 offset;
+	[HideInInspector]
+	public bool inputMask = false;
 
 	void OnMouseDown()
 	{
-		screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-		offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
+		if (!inputMask) {
+			Cursor.visible = false;
+			startPos = transform.position;
+			dist = Camera.main.WorldToScreenPoint (transform.position);
+			posX = Input.mousePosition.x - dist.x;
+			posY = Input.mousePosition.y - dist.y;
+			posZ = Input.mousePosition.z - dist.z;
+		}
+	}
+
+	void OnMouseUp() {
+		Cursor.visible = true;
 	}
 
 	void OnMouseDrag()
 	{
-		Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
-		Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint), offset;
-		gameObject.transform.position = curPosition;
+		if (!inputMask) {
+			float disX = Input.mousePosition.x - posX;
+			float disY = Input.mousePosition.y - posY;
+			float disZ = Input.mousePosition.z - posZ;
+			Vector3 lastPos = Camera.main.ScreenToWorldPoint (new Vector3 (disX, disY, disZ));
+			transform.position = new Vector3 (lastPos.x, startPos.y, lastPos.z);
+		}
 	}
+
+
 }

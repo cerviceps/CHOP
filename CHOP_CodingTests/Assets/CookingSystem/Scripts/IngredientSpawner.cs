@@ -18,7 +18,16 @@ public class IngredientSpawner : MonoBehaviour {
 	public void spawnAtAllCoords() {
 		int length = Mathf.Min (this.prefabs.Length, this.coords.Length);
 		for (int i = 0; i < length; i++) {
-			Instantiate (prefabs [i], coords [i], Quaternion.identity);
+			Ingredient ingScript = prefabs [i].gameObject.GetComponent<Ingredient> ();
+			Debug.Log ("Spawning " + ingScript.name);
+//			float prefabHeight;
+//			try {
+//				prefabHeight = prefabs [i].gameObject.transform.GetChild(0).GetComponent<MeshFilter>().sharedMesh.bounds.extents.y;
+//			} catch (MissingComponentException) {
+//				prefabHeight = 1.0f;
+//			}
+			Vector3 adjustedCoords = new Vector3 (coords[i].x, 0.3f, coords[i].z);
+			Instantiate (prefabs [i], adjustedCoords, Quaternion.identity);
 		}
 	}
 
