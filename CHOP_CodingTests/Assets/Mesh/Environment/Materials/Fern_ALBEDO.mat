@@ -7,12 +7,13 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Fern_ALBEDO
-  m_Shader: {fileID: 4800000, guid: 5baf2cbe7fcf64552a4ac70d43d1db0a, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _BENDINGCONTROLS_VERTEX_COLORS _EMISSION _GLOSSYREFLECTIONS_OFF
-    _SPECULARHIGHLIGHTS_OFF
+  m_Shader: {fileID: 4800000, guid: f8d49205b3b0a644195633020367689d, type: 3}
+  m_ShaderKeywords: TCP2_DISABLE_WRAPPED_LIGHT _ALPHATEST_ON _BENDINGCONTROLS_VERTEX_COLORS
+    _EMISSION _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 1
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -76,6 +77,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - first:
         name: _BendingControls
@@ -117,14 +124,50 @@ Material:
         name: _Parallax
       second: 0.02
     - first:
+        name: _RampSmooth
+      second: 0.1
+    - first:
+        name: _RampSmoothAdd
+      second: 0.75
+    - first:
+        name: _RampThreshold
+      second: 0.5
+    - first:
+        name: _RimMax
+      second: 0.85
+    - first:
+        name: _RimMin
+      second: 0.6
+    - first:
+        name: _RimStrength
+      second: 0.5
+    - first:
         name: _SmoothnessTextureChannel
       second: 0
+    - first:
+        name: _SpecBlend
+      second: 1
+    - first:
+        name: _SpecSmooth
+      second: 1
     - first:
         name: _SpecularHighlights
       second: 0
     - first:
         name: _SrcBlend
       second: 1
+    - first:
+        name: _TCP2_DISABLE_WRAPPED_LIGHT
+      second: 1
+    - first:
+        name: _TCP2_RAMPTEXT
+      second: 0
+    - first:
+        name: _TCP2_SPEC_TOON
+      second: 0
+    - first:
+        name: _TCP2_STYLIZED_FRESNEL
+      second: 0
     - first:
         name: _TranslucencyViewDependency
       second: 0.045
@@ -141,6 +184,15 @@ Material:
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _HColor
+      second: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
+    - first:
+        name: _SColor
+      second: {r: 0.4, g: 0.4, b: 0.4, a: 1}
     - first:
         name: _SpecularReflectivity
       second: {r: 0, g: 0, b: 0, a: 1}

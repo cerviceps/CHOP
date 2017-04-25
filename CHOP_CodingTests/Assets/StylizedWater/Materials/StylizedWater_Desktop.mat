@@ -24,7 +24,7 @@ Material:
     - first:
         name: _Reflection
       second:
-        m_Texture: {fileID: 8900000, guid: c45765937ebc6e1469253300f2f25cdf, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -81,7 +81,7 @@ Material:
       second: 0.9
     - first:
         name: _Transparency
-      second: 0.739
+      second: 0.437
     - first:
         name: _Wavesspeed
       second: 4.12
