@@ -35,17 +35,17 @@ public class ClickMarker2 : MonoBehaviour {
 	}
 }
 
-		//ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+//ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 
-		//if (Physics.Raycast (ray, out hit)) {
+//if (Physics.Raycast (ray, out hit)) {
 
-			//if (Input.GetKey (KeyCode.Mouse0)) {
+//if (Input.GetKey (KeyCode.Mouse0)) {
 
-				//prefab.transform.position = hit.point;
-				//GameObject obj = Instantiate (prefab, new Vector3 (hit.point.x, hit.point.y, hit.point.z), Quaternion.identity) as GameObject;
+//prefab.transform.position = hit.point;
+//GameObject obj = Instantiate (prefab, new Vector3 (hit.point.x, hit.point.y, hit.point.z), Quaternion.identity) as GameObject;
 
-				//GameObject.Destroy (prefab, 0.5f);
-			//}
-		//}
-	//}
+//GameObject.Destroy (prefab, 0.5f);
+//}
+//}
+//}
 //}
