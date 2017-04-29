@@ -153,7 +153,6 @@ MonoBehaviour:
   name: trout
   cookedPrefab: {fileID: 1313369721321126, guid: b103fb293b1cc49fa8b790858368a958,
     type: 2}
-  isCookable: 1
   cookTime: 3
 --- !u!114 &114452156644697106
 MonoBehaviour:

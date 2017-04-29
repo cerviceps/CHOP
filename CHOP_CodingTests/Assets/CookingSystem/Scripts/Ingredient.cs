@@ -8,7 +8,6 @@ public class Ingredient : MonoBehaviour {
 	[Header("the ingredient name in CookingManager")]
 	public string name = "DefaultIngredientName";
 	public GameObject cookedPrefab;
-	public bool isCookable = false;
 	public float cookTime = 3.0f;
 
 	void Start() {
@@ -37,7 +36,7 @@ public class Ingredient : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.name.Equals ("pan")) {
-			if (isCookable) {
+			if (cookedPrefab != null) {
 				StartCoroutine (cook ());
 			}
 		}
