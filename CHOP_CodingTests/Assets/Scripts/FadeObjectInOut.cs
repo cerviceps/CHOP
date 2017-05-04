@@ -155,19 +155,17 @@ public class FadeObjectInOut : MonoBehaviour
 		StartCoroutine("FadeSequence", -newFadeTime); 
 	}
 
-
-	// These are for testing only. 
-	//		void Update()
-	//		{
-	//			if (Input.GetKeyDown (KeyCode.Alpha0) )
-	//			{
-	//				FadeIn();
-	//			}
-	//			if (Input.GetKeyDown (KeyCode.Alpha9) )
-	//			{
-	//				FadeOut(); 
-	//			}
-	//		}
+	void Update()
+	{
+        if (Input.GetMouseButtonDown(0))
+        {
+            for (int i = 0; i < 4000; i++)
+            {
+                FadeIn();
+            }
+            FadeOut(10); //change the number in this to make it fade out faster!
+        }
+	}
 
 
 }

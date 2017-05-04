@@ -9,31 +9,34 @@ public class RadialMenu : MonoBehaviour {
 
 	// Use this for initialization
 	public void SpawnButtons (Interactable obj) {
-        for (int i = 0; i < obj.options.Length; i++)
+        for (int i=0;i<obj.options.Length; i++)
         {
             RadialButton newButton = Instantiate(buttonPrefab) as RadialButton;
             newButton.transform.SetParent(transform, false);
-            float theta = (2 * Mathf.PI / obj.options.Length) * i;
+            float theta = (Mathf.PI / obj.options.Length) * i;
             float xPos = Mathf.Sin(theta);
             float yPos = Mathf.Cos(theta);
-            newButton.transform.localPosition = new Vector3(xPos, yPos, 0f) * 80f;
+            newButton.transform.localPosition = new Vector3(xPos, yPos, 0f) * 100f;
             newButton.circle.color = obj.options[i].color;
             newButton.icon.sprite = obj.options[i].sprite;
             newButton.title = obj.options[i].title;
             newButton.myMenu = this;
         }
     }
-	
+
+
     void Update()
     {
         if (Input.GetMouseButtonUp(0))
         {
-            if (selected)
+            //Add stuff here, like this
+            if (selected.title == "Interact")
             {
-                //Do shit here
-                Debug.Log(selected.title + " was selected!");
+                Destroy(GameObject.Find("Stump_Split_01 (1)"));
+                Debug.Log("Great!");
             }
             Destroy(gameObject);
         }
     }
+	
 }

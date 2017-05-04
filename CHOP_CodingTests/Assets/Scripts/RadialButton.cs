@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
+using System;
 
 public class RadialButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
 
@@ -11,14 +11,14 @@ public class RadialButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public Image icon;
     public string title;
     public RadialMenu myMenu;
+
     Color defaultColor;
-    Color selectedColor = Color.black;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        defaultColor = circle.color;
-        circle.color = selectedColor;      
         myMenu.selected = this;
+        defaultColor = circle.color;
+        circle.color = Color.white;
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -26,4 +26,5 @@ public class RadialButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         circle.color = defaultColor;
         myMenu.selected = null;
     }
+
 }

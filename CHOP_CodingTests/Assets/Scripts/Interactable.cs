@@ -14,8 +14,10 @@ public class Interactable : MonoBehaviour {
 
     public Action[] options;
 
-    void OnMouseDown() {
-        //Tell canvas to spawn a menu
+    void OnMouseDown()
+    {
+        //tell the canvas to spawn a menu
         RadialMenuSpawner.ins.SpawnMenu(this);
     }
+
 }
